@@ -1,0 +1,22 @@
+from main import Circuito
+
+if __name__ == "__main__":
+    circuito = Circuito()
+    circuito.carregar_arquivo("bookshelf.nodes")
+    print(circuito.buscar_celula("a0"))
+    print(circuito.buscar_celula("a1"))
+    print(circuito.buscar_celula("a100"))
+    print(circuito.buscar_celula("a1000"))
+    print(circuito.buscar_celula("a10000"))
+    print(circuito.buscar_celula("a10001"))
+    print(circuito.buscar_celula("a10002"))
+    print(circuito.buscar_celula("a10003"))
+    print(circuito.buscar_celula("a10004"))
+    print(circuito.buscar_celula("a10005"))
+    print(circuito.buscar_celula("a10006"))
+    print(circuito.buscar_celula("a10007"))
+    print(circuito.buscar_celula("a10008"))
+    print(circuito.buscar_celula("a10009"))
+    print(circuito.buscar_celula("a10010"))
+    print(circuito.buscar_celula("a10011"))
+    print(circuito.buscar_celula("a10013"))
